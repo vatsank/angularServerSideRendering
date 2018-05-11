@@ -12,7 +12,7 @@ import { ShowMoviesComponent } from './show-movies/show-movies.component';
 
 
 @NgModule({
-  imports: [BrowserModule.withServerTransition({ appId: 'tour-of-heroes' }),
+  imports: [BrowserModule.withServerTransition({ appId: 'ssr-demo' }),
     ],
   declarations:[AppComponent, ShowMoviesComponent],
   providers: [  ],
