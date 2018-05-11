@@ -25,3 +25,18 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+# Executing the Code
+
+Clone the Repositary
+
+Update As required
+
+npm run build:ssr
+Will create two sub folder in dist folder
+browser
+server
+
+npm run serve:ssr
+OPen the Browser and invoke     => http://localhost:4000/
